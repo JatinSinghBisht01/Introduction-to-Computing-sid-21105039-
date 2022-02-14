@@ -169,7 +169,7 @@ data1 ={}
 enquire="Y" # variable which tell whether user is interested to add data or not.
 while (enquire == "Y" or "y") :
     print("enter you data : ")
-    sid = int(input("enter student sid (positive value) : "))
+    sid = int(input("enter student sid (positive value and should be unique) : "))
     s_name = input("enter Student Name(capitalize first letter ) : ") # capitalise first letter of name or we can use s_name.capitalize()
     if (sid<0):
         print("value error.",'\n', " enter positve value only",'/n')
